@@ -1,0 +1,5 @@
+# List of the Java classes that have been aspectized and name of the aspect classes separated by comma
+	fsm.Transition = fsm.aspects.TransitionAspect
+	fsm.InitialState = fsm.aspects.InitialStateAspect
+	fsm.State = fsm.aspects.StateAspect
+	fsm.FSM = fsm.aspects.FSMAspect

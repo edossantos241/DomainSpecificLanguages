@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fsm:FSM xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:fsm="http://www.example.org/fsm"
+    xsi:schemaLocation="http://www.example.org/fsm fsm.ecore">
+  <state xsi:type="fsm:InitialState"
+      name="init"/>
+  <state xsi:type="fsm:FinalState"
+      name="final"/>
+  <state name="open"/>
+  <state name="ferme"/>
+  <transition
+      source="//@state.0"
+      target="//@state.2"
+      name="t1"/>
+  <transition
+      source="//@state.2"
+      target="//@state.3"
+      name="t2"/>
+  <transition
+      source="//@state.3"
+      target="//@state.1"
+      name="t3"/>
+</fsm:FSM>
